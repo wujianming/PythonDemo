@@ -1,4 +1,6 @@
-﻿import urllib.request
+﻿# -*- coding: utf-8 -*-
+
+import urllib.request
 import os
 import re
 import time
@@ -173,7 +175,7 @@ if __name__ == "__main__":
     print("2--查询")
     print("3--取得文章")
     print("4--取得图片")
-    choose=input("请输入结果：")
+    choose=input(u"请输入结果：")
     if choose=="1":
         crawer()
     else :
